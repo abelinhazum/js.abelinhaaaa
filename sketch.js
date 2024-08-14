@@ -4,4 +4,11 @@ function setup() {
 
 function draw() {
   background(220);
+  
+  function forca(massa,aceleração) {
+    let resultado = massa * aceleração; 
+    return(resultado);
+  }
+  let resultadoFinal = forca(8,7);   
+  console.log(resultadoFinal);
 }
